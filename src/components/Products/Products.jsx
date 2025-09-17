@@ -2,12 +2,11 @@ import React from 'react'
 import './Products.css'
 
 const Products = (props) => {
-    console.log(props.arrays);
+    console.log(props.products);
 
   return (
     <div>
-      <h1>Products Name: {props.arrays[0]} </h1>
-        <h1>Products Price:  </h1>
+      <h1>Products Name:  </h1>
     </div>
   )
 }
