@@ -1,6 +1,7 @@
 
 import './App.css'
-import Products from './components/Products/Products'
+import Products from './components/Products/Products';
+
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
   return (
     <div>
       {
-        products.map(product => <h1>Hello</h1>)
+        products.map(product => <Products products={product}></Products>)
       }
     </div>
   )
