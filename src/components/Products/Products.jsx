@@ -1,8 +1,8 @@
 import React from 'react'
 import './Products.css'
 
-const Products = () => {
-
+const Products = (props) => {
+    console.log(props.product)
 
   return (
     <div>
