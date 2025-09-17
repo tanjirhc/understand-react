@@ -4,10 +4,12 @@ import Products from './components/Products/Products'
 
 function App() {
 
+  const arrays = [ 'Rahim', 'Karim', 'Jabbar', 'Kalam' ];
 
   return (
     <div>
-      <Products       
+      <Products   
+        arrays = {arrays}      
       />
     </div>
   )

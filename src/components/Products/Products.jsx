@@ -1,8 +1,9 @@
 import React from 'react'
 import './Products.css'
 
-const Products = () => {
-
+const Products = (props) => {
+    console.log(props.arrays);
+    
   return (
     <div>
       <h1>Products Name:  </h1>
