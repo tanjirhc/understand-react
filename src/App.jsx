@@ -1,11 +1,12 @@
 
 import './App.css'
+import Products from './components/Products/Products'
 
 function App() {
   return (
-    <>
-      <h1>Hello React World</h1>
-    </>
+    <div>
+      <Products />
+    </div>
   )
 }
 
