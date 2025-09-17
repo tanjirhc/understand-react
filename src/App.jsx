@@ -16,9 +16,9 @@ function App() {
 
   return (
     <div>
-      <Products   
-        products = {products}      
-      />
+      {
+        products.map(product => <h1>Hello</h1>)
+      }
     </div>
   )
 }
