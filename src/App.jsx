@@ -15,11 +15,16 @@ function App() {
     {name: "Motorola Edge 30 Ultra", price: "49,999"}
    ];
 
+   const handleAlert = () => {
+        alert('Alert button clicked!');
+    }
+
   return (
     <div>
       {
         products.map(product => <Products 
           product = {product}
+          alertFunction = {handleAlert}
         ></Products>)
       }
     </div>
