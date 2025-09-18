@@ -1,15 +1,17 @@
 
+import { useState } from 'react';
 import './App.css'
 
 
 
 function App() {
 
-  let price = 10;
+  const [price, setPrice] = useState(20);
+
 
   const increaseHandle = () => {
-    console.log('Price Value', price)
-    price = price + 1;
+    // console.log('Price Value', price)
+    // price = price + 1;
   }
 
   return (
