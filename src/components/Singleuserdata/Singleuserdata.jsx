@@ -10,6 +10,7 @@ const Singleuserdata = ({singleData}) => {
       <p>{website}</p>
       <h3>{phone}</h3>
       <h4>Company Name: {company.name}</h4>
+      <span>{company.catchPhrase}</span>
     </div>
   )
 }
