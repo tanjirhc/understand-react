@@ -8,7 +8,6 @@ import Singleuserdata from './components/Singleuserdata/Singleuserdata';
 
 function App() {
   const [allData, setAllData] = useState([])
-  console.log(allData);
 
 
   useEffect(() => {
@@ -21,7 +20,9 @@ function App() {
     <div>
       <h1>Data : {allData.length}</h1>
       {
-        allData.map(singleData => <Singleuserdata />)
+        allData.map(singleData => <Singleuserdata 
+          singleData={singleData}
+          />)
       }
     </div>
   )
