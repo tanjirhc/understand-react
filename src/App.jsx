@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import './App.css'
+import Singleuserdata from './components/Singleuserdata/Singleuserdata';
 
 
 
@@ -20,7 +21,7 @@ function App() {
     <div>
       <h1>Data : {allData.length}</h1>
       {
-        allData.map(singleData => <p>{singleData.phone}</p>)
+        allData.map(singleData => <Singleuserdata />)
       }
     </div>
   )
