@@ -20,9 +20,9 @@ function App() {
       <button onClick={increaseHandle}>Increase</button> &nbsp; &nbsp; &nbsp;
       <button>Decrease</button>
 
-      <h2>Price: 0</h2>
-      <p>Price: 0</p>
-      <h4>Price: 0</h4>
+      <h2>Price: {price}</h2>
+      <p>Price: {price}</p>
+      <h4>Price: {price}</h4>
     </div>
   )
 }
