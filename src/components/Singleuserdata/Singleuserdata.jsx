@@ -1,12 +1,13 @@
 import React from 'react'
 
 const Singleuserdata = ({singleData}) => {
-    console.log(singleData.name)
+    const {name, website, phone} = singleData;
+
   return (
     <div>
-      <h1>{singleData.name}</h1>
-      <p>{singleData.website}</p>
-      <h3>{singleData.phone}</h3>
+      <h1>{name}</h1>
+      <p>{website}</p>
+      <h3>{phone}</h3>
     </div>
   )
 }
