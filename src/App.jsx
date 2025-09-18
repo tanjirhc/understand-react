@@ -20,7 +20,8 @@ function App() {
     <div>
       <h1>Data : {allData.length}</h1>
       {
-        allData.map(singleData => <Singleuserdata 
+        allData.map(singleData => <Singleuserdata
+          key={singleData.id} 
           singleData={singleData}
           />)
       }
