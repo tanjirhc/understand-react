@@ -8,7 +8,7 @@ function App() {
   let price = 10;
 
   const increaseHandle = () => {
-    console.log(price)
+    console.log('Price Value', price)
     price = price + 1;
   }
 
