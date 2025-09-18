@@ -7,24 +7,20 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0);
-
-
-  useEffect(() => {
-    alert('useEffect called')
-  }, [])
+  const [name, setName] = useState('This is Tanjir Hossain ');
 
   useEffect(() => {
-    alert('Count changed: ');
-  }, [count])
+    console.log('When Data Loaded')
+  }, [name])
 
   const updateCounter = () => {
-    const newCount = count + 1;
-    setCount(newCount);
+    const newName = name + 'Coding Addict';
+    setName(newName);
   }
   
   return (
     <div>
-      <h1>Steps: {count}</h1>
+      <h1>Name: {name}</h1>
       <button onClick={updateCounter}>Steps</button>
     </div>
   )
