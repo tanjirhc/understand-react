@@ -20,7 +20,7 @@ function App() {
     <div>
       <h1>Data : {allData.length}</h1>
       {
-        allData.map(singleData => <p>{singleData.name}</p>)
+        allData.map(singleData => <p>{singleData.phone}</p>)
       }
     </div>
   )
