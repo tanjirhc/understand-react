@@ -20,8 +20,10 @@ function App() {
   
   return (
     <div>
-      <h1>Name: {name}</h1>
+      <h1>Name: {name}</h1>      
       <button onClick={updateCounter}>Steps</button>
+      <h1>Steps: {count}</h1>
+      <button onClick={() => setCount(count + 1)}>Update Steps</button>
     </div>
   )
 }
