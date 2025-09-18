@@ -7,6 +7,7 @@ import './App.css'
 
 function App() {
   const [allData, setAllData] = useState([])
+  console.log(allData);
 
 
   useEffect(() => {
@@ -18,6 +19,9 @@ function App() {
   return (
     <div>
       <h1>Data : {allData.length}</h1>
+      {
+        allData.map(singleData => <p>{singleData.name}</p>)
+      }
     </div>
   )
 }
