@@ -10,8 +10,8 @@ function App() {
 
 
   const increaseHandle = () => {
-    // console.log('Price Value', price)
-    // price = price + 1;
+    const newPrice = price + 1;
+    setPrice(newPrice);
   }
 
   return (
