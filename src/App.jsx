@@ -6,12 +6,12 @@ import './App.css'
 
 function App() {
 
+  const [price, setPrice] = useState(10);
 
-  let price = 10;
 
   const increaseHandle = () => {
-    price = price + 1;
-    console.log('Price after increase:', price);  
+    const newPrice = price + 1;
+    setPrice(newPrice);
   }
   
   return (
