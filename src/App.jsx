@@ -8,7 +8,9 @@ import './App.css'
 function App() {
 
 
-  useEffect(() => {}, [])
+  useEffect(() => {
+    console.log('useEffect called')
+  }, [])
   
   return (
     <div>
