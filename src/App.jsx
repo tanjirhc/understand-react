@@ -13,6 +13,10 @@ function App() {
     alert('useEffect called')
   }, [])
 
+  useEffect(() => {
+    alert('Count changed: ');
+  }, [count])
+
   const updateCounter = () => {
     const newCount = count + 1;
     setCount(newCount);
