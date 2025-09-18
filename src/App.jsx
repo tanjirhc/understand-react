@@ -1,22 +1,24 @@
 
 
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 
 
 
 function App() {
+  const [allData, setAllData] = useState()
+
 
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
-      .then(data => console.log(data))
+      .then(data => setAllData(data))
       .catch(error => console.error('Error fetching data:', error))
   }, [])
 
   return (
     <div>
-      <h1>Hello API Fetching</h1>
+      <h1>Data : {data.length}</h1>
     </div>
   )
 }
