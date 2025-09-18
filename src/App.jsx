@@ -6,24 +6,19 @@ import './App.css'
 
 function App() {
 
-  const [price, setPrice] = useState(10);
 
+  let price = 10;
 
   const increaseHandle = () => {
-    const newPrice = price + 1;
-    setPrice(newPrice);
+    price = price + 1;
+    console.log('Price after increase:', price);  
   }
-
-  const decreaseHandle = () => {
-    const newPrice = price - 1;
-    setPrice(newPrice);
-  }
-
+  
   return (
     <div>
       <h1>Price : {price}</h1>
       <button onClick={increaseHandle}>Increase</button> &nbsp; &nbsp; &nbsp;
-      <button onClick={decreaseHandle}>Decrease</button>
+      <button>Decrease</button>
 
       <h2>Price: {price}</h2>
       <p>Price: {price}</p>
