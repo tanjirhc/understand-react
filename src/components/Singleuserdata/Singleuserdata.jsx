@@ -4,7 +4,7 @@ const Singleuserdata = (props) => {
     console.log(props.singleData.name)
   return (
     <div>
-      <h1>Hello</h1>
+      <h1>{props.singleData.name}</h1>
     </div>
   )
 }
