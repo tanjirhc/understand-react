@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Singleuserdata = (props) => {
-    console.log(props.singleData.name)
+const Singleuserdata = ({singleData}) => {
+    console.log(singleData.name)
   return (
     <div>
-      <h1>{props.singleData.name}</h1>
+      <h1>{singleData.name}</h1>
     </div>
   )
 }
