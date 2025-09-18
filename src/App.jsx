@@ -9,7 +9,7 @@ function App() {
 
 
   useEffect(() => {
-    console.log('useEffect called')
+    alert('useEffect called')
   }, [])
   
   return (
