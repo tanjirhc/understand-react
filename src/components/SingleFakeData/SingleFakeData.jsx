@@ -1,6 +1,7 @@
 import React from 'react'
 
-const SingleFakeData = () => {
+const SingleFakeData = (singleData) => {
+    console.log(singleData)
   return (
     <div>
       
