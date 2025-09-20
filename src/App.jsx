@@ -17,7 +17,7 @@ function App() {
   }, [])
 
   return (
-    <div>      
+    <div className='parent-container'>      
       {
         allData.map(singleData => <Singleuserdata
           key={singleData.id} 
