@@ -5,7 +5,7 @@ const Singleuserdata = ({singleData}) => {
     console.log(singleData)
 
   return (
-    <div className='border p-5 rounded shadow-lg'> 
+    <div className='border-2 border-green-600 p-5 bg-zinc-400 rounded shadow-lg'> 
       <h1>{name}</h1>
       <p >{website}</p>
       <h3>{phone}</h3>
