@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div >      
-      Hello
+      <h1 className='text'>Data Length: {fakeData.length}</h1>
     </div>
   )
 }
