@@ -1,32 +1,92 @@
 [
-    {
-        "id": "1",
-        "name": "John Doe",
-        "age": 28
-    },
-    {
-        "id": "2",
-        "name": "Jane Smith",
-        "age": 34
-    },
-    {
-        "id": "3",
-        "name": "Alice Johnson",
-        "age": 45
-    },
-    {
-        "id": "4",
-        "name": "Bob Brown",
-        "age": 23
-    },
-    {
-        "id": "5",
-        "name": "Charlie Davis",
-        "age": 30
-    },
-    {
-        "id": "6",
-        "name": "Diana Evans",
-        "age": 29
-    }
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "age": 29,
+    "profession": "Software Engineer",
+    "email": "alice.johnson@example.com",
+    "phone": "+1-202-555-0173",
+    "img": "https://randomuser.me/api/portraits/women/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Michael Smith",
+    "age": 35,
+    "profession": "Graphic Designer",
+    "email": "michael.smith@example.com",
+    "phone": "+1-202-555-0145",
+    "img": "https://randomuser.me/api/portraits/men/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sophia Martinez",
+    "age": 41,
+    "profession": "Data Analyst",
+    "email": "sophia.martinez@example.com",
+    "phone": "+1-202-555-0188",
+    "img": "https://randomuser.me/api/portraits/women/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "David Brown",
+    "age": 26,
+    "profession": "Teacher",
+    "email": "david.brown@example.com",
+    "phone": "+1-202-555-0199",
+    "img": "https://randomuser.me/api/portraits/men/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Emma Wilson",
+    "age": 32,
+    "profession": "Doctor",
+    "email": "emma.wilson@example.com",
+    "phone": "+1-202-555-0132",
+    "img": "https://randomuser.me/api/portraits/women/5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Liam Anderson",
+    "age": 38,
+    "profession": "Civil Engineer",
+    "email": "liam.anderson@example.com",
+    "phone": "+1-202-555-0110",
+    "img": "https://randomuser.me/api/portraits/men/6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Olivia Thomas",
+    "age": 27,
+    "profession": "Marketing Specialist",
+    "email": "olivia.thomas@example.com",
+    "phone": "+1-202-555-0167",
+    "img": "https://randomuser.me/api/portraits/women/7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "James White",
+    "age": 45,
+    "profession": "Project Manager",
+    "email": "james.white@example.com",
+    "phone": "+1-202-555-0124",
+    "img": "https://randomuser.me/api/portraits/men/8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Charlotte Davis",
+    "age": 30,
+    "profession": "UX Designer",
+    "email": "charlotte.davis@example.com",
+    "phone": "+1-202-555-0182",
+    "img": "https://randomuser.me/api/portraits/women/9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Ethan Harris",
+    "age": 36,
+    "profession": "Financial Advisor",
+    "email": "ethan.harris@example.com",
+    "phone": "+1-202-555-0179",
+    "img": "https://randomuser.me/api/portraits/men/10.jpg"
+  }
 ]
