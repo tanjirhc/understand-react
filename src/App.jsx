@@ -17,8 +17,7 @@ function App() {
   }, [])
 
   return (
-    <div>
-      <h1>Data : {allData.length}</h1>
+    <div>      
       {
         allData.map(singleData => <Singleuserdata
           key={singleData.id} 
