@@ -15,6 +15,9 @@ function App() {
   return (
     <div >      
       <h1 className='text'>Data Length: {fakeData.length}</h1>
+      {
+        fakeData.map(data => <p key={data.id}>{data.name}</p>)
+      }
     </div>
   )
 }
