@@ -1,7 +1,7 @@
 import React from 'react'
 
 const SingleFakeData = (singleData) => {
-    console.log(singleData)
+     const {name, age, profession} = singleData;
   return (
     <div>
       
