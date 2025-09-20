@@ -5,9 +5,9 @@ const Singleuserdata = ({singleData}) => {
     console.log(singleData)
 
   return (
-    <div > 
+    <div className='border p-5 rounded shadow-lg'> 
       <h1>{name}</h1>
-      <p>{website}</p>
+      <p >{website}</p>
       <h3>{phone}</h3>
       <h4>Company Name: {company.name}</h4>
       <span>{company.catchPhrase}</span>
