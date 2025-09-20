@@ -1,10 +1,11 @@
 import React from 'react'
 
 const SingleFakeData = ({singleData}) => {
-     const {name} = singleData;
+     const {name,age} = singleData;
   return (
     <div>
-      <h1>Name: {name}</h1>
+      <h2>Name: {name}</h2>
+      <p>Age: {age}</p>
     </div>
   )
 }
