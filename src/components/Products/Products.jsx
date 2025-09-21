@@ -13,7 +13,7 @@ const Products = () => {
     }, [])
 
   return (
-    <div>
+    <div className='grid grid-cols-5 gap-4 m-4 p-6 py-3'>
       {
         products.map(product => <Product 
             key={product.id} 
