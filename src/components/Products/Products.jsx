@@ -1,12 +1,14 @@
 import React from 'react'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 const Products = () => {
+    const [products, setProducts] = useState([]);
+    console.log(products);
 
     useEffect(() => {
         fetch('fakeData.json')
             .then(res => res.json())
-            .then(data => console.log(data))
+            .then(data => setProducts(data))
     }, [])
 
   return (
