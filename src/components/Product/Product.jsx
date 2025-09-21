@@ -5,9 +5,10 @@ const Product = ({product}) => {
 
   return (
     <div className='border-2 m-4 p-4 border-indigo-600 rounded-lg bordder-center'>
-      <h1 className='text-2xl'>{name}</h1>
+      <h2 className='text-2xl'>{name}</h2>
       <p>{age}</p>
-      <span>{profession}</span>
+      <p>{profession}</p>
+      <button className='bg-red-600 px-4 py-3 mt-2'>Add to Cart</button>
     </div>
   )
 }
