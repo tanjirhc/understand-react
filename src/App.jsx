@@ -17,7 +17,7 @@ function App() {
   return (
     <div className='flex gapx-6'>      
       <Products addToCartData = {addToCartData} />
-      <Placement />
+      <Placement cart ={cart}/>
     </div>
   )
 }
