@@ -3,7 +3,7 @@ import React from 'react'
 const Placement = () => {
   return (
     <div>
-      Placement
+      <h2 className='text-2xl'>Placement</h2>
     </div>
   )
 }

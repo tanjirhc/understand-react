@@ -9,7 +9,7 @@ function App() {
 
   
   return (
-    <div >      
+    <div className='flex gapx-6'>      
       <Products />
       <Placement />
     </div>
