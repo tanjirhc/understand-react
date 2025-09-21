@@ -1,5 +1,6 @@
 
 import './App.css'
+import Products from './components/Products/Products'
 
 
 function App() {
@@ -7,8 +8,7 @@ function App() {
 
   return (
     <div >      
-      <h1>React Boilerplate</h1>
-      <p>This is a simple React boilerplate setup.</p>
+      <Products />
     </div>
   )
 }
