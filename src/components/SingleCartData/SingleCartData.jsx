@@ -4,6 +4,7 @@ const SingleCartData = ({singleData}) => {
     const {name, age, profession} = singleData;
   return (
     <div>
+        <hr />
       <h2>{name}</h2>
         <h2>{age}</h2>
         <p>{profession}</p>

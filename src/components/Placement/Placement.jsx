@@ -5,7 +5,7 @@ const Placement = ({cart}) => {
 
   return (
     <div>
-      <h2 className='text-2xl'>Placement</h2>
+      <h2 className='text-2xl'>Add To Cart : {cart.length}</h2>
       {
         cart.map(singleData => <SingleCartData
             key={singleData.id} 
