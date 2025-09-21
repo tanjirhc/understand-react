@@ -1,6 +1,8 @@
 import React from 'react'
 
-const SingleCart = () => {
+const SingleCart = (singleCart) => {
+    const {name, age, profession} = singleCart.singleCart;
+    
   return (
     <div>
       
