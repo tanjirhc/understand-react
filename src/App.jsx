@@ -9,8 +9,8 @@ import Products from './components/Products/Products'
 function App() {
   // const [placement, setPlacement] = useState([]);
 
-  const addToCart = () => {
-    console.log('Add to cart')
+  const addToCart = (placement) => {
+    console.log('Add to cart', placement)
   }
   
   return (
