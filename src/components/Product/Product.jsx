@@ -2,6 +2,7 @@ import React from 'react'
 
 const Product = ({product, addToCart}) => {
    const {name, age, profession} = product;
+   console.log(product)
 
   return (
     <div className='border-2 m-4 p-4 border-cyan-600 rounded-lg align-center'>
