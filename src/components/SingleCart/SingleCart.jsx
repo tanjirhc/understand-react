@@ -5,7 +5,9 @@ const SingleCart = (singleCart) => {
     
   return (
     <div>
-      
+      <h2>{name}</h2>
+      <p>{age}</p>
+      <p>{profession}</p>
     </div>
   )
 }
