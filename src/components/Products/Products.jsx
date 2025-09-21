@@ -1,26 +1,14 @@
-import React from 'react'
-import { useEffect, useState } from 'react'
-import Product from '../Product/Product'
+import React, { useEffect } from 'react'
 
-const Products = ({addToCart}) => {
-    const [products, setProducts] = useState([]);
-    console.log(products);
+const Products = () => {
 
     useEffect(() => {
-        fetch('fakeData.json')
-            .then(res => res.json())
-            .then(data => setProducts(data))
-    }, [])
+        console.log('Products Component Mounted');
+    }, []);
 
   return (
-    <div className='grid grid-cols-5 gap-4 m-4 p-6 py-3'>
-      {
-        products.map(product => <Product 
-            key={product.id} 
-            product={product}
-            addToCart={addToCart}
-        />)
-      }
+    <div>
+      <h2>Products</h2>
     </div>
   )
 }
