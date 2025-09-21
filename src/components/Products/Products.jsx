@@ -3,7 +3,9 @@ import React, { useEffect } from 'react'
 const Products = () => {
 
     useEffect(() => {
-        console.log('Products Component Mounted');
+        fetch('fakeData.json')
+        .then(res => res.json())
+        .then(data => console.log(data))
     }, []);
 
   return (
