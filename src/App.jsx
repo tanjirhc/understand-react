@@ -7,10 +7,13 @@ import Placement from './components/Placement/Placement'
 
 function App() {
 
+  const addToCartData = () => {
+    alert('Added to cart')
+  }
   
   return (
     <div className='flex gapx-6'>      
-      <Products />
+      <Products addToCartData = {addToCartData} />
       <Placement />
     </div>
   )
