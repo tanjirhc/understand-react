@@ -4,7 +4,7 @@ const Product = ({product}) => {
    const {name, age, profession} = product;
 
   return (
-    <div className='border-2 m-4 p-4 border-indigo-600 rounded-lg bordder-center'>
+    <div className='border-2 m-4 p-4 border-cyan-600 rounded-lg align-center'>
       <h2 className='text-2xl'>{name}</h2>
       <p>{age}</p>
       <p>{profession}</p>
