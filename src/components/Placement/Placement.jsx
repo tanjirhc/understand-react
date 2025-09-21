@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Placement = () => {
+const Placement = ({cart}) => {
   return (
     <div>
       Placement

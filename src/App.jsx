@@ -7,16 +7,17 @@ import Products from './components/Products/Products'
   
 
 function App() {
-  // const [placement, setPlacement] = useState([]);
+  const [cart, setCart] = useState([]);
 
   const addToCart = (placement) => {
-    console.log('Add to cart', placement)
+    const newPlacement = [...cart, placement];
+    setCart(newPlacement);
   }
   
   return (
     <div className='flex gap-x-6'>      
       <Products addToCart = {addToCart}/>
-      <Placement />
+      <Placement cart = {cart}/>
     </div>
   )
 }
