@@ -7,6 +7,7 @@ const Product = ({product}) => {
       <h2 className='text-2xl'>{name}</h2>
       <h2>{age}</h2>
       <p>{profession}</p>
+      <button className='bg-green-40 py-2 px-3 mt-4'>Add To Cart</button>
     </div>
   )
 }
