@@ -6,11 +6,11 @@ const Product = ({product, addToCartData}) => {
     
 
   return (
-    <div className='border-2 m-4 p-4 py-8 px-8 border-cyan-600 rounded-lg align-center'>
+    <div className='border-2 m-4 p-4 py-8 px-8 border-cyan-600 rounded-lg'>
       <h2 className='text-2xl'>{name}</h2>
       <h2>{age}</h2>
       <p>{profession}</p>
-      <button onClick={() => addToCartData(product)} className='bg-green-40 py-2 px-3 mt-4'>Add To Cart</button>
+      <button onClick={() => addToCartData(product)} className='py-2 px-3 mt-4'>Add To Cart</button>
     </div>
   )
 }
